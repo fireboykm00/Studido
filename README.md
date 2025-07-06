@@ -4,6 +4,8 @@
 
 > Think of it as your own mini GarageBand... in the terminal!
 
+
+⚠️ Contributions are allowed! Maybe make it even more real.
 ---
 
 ## 🚀 Features
