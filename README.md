@@ -42,3 +42,77 @@ Then follow the prompt to enter notes like:
 C4 E4 G4 C5+E5+G5 F4 D4
 ```
 
+
+
+### 📁 Project Structure
+
+```
+
+src/
+├── com/studido/
+│   ├── StudidoApplication.java   # Main class
+│   ├── audio/
+│   │   ├── AudioPlayer.java
+│   │   └── FileManager.java
+│   └── exception/
+│       └── Exceptions.java
+resources/
+├── audio/                        # Place your MP3 files here
+├── maps/                         # Automatically created note mappings
+
+````
+
+
+## 🧠 Note Syntax
+
+| Type     | Example          | Meaning                          |
+| -------- | ---------------- | -------------------------------- |
+| Single   | `C4`             | Play a single note               |
+| Chord    | `C4+E4+G4`       | Play multiple notes **together** |
+| Sequence | `C4 E4 G4`       | Play notes one after another     |
+| Combined | `C4 E4 G4 C5+E5` | Sequence and chord mixed         |
+
+---
+
+## 🧪 Sample Songs (Try These)
+
+### 🎵 Für Elise
+
+```
+E5 Db5 E5 Db5 E5 B4 D5 C5 A4
+C4 E4 A4 B4
+E4 Gb4 B4 C5
+E4 E5 Db5 E5 Db5 E5 B4 D5 C5 A4
+```
+
+### 🎉 Happy Birthday
+
+```
+C4 C4 D4 C4 F4 E4
+C4 C4 D4 C4 G4 F4
+C4 C4 C5 A4 F4 E4 D4
+Bb4 Bb4 A4 F4 G4 F4
+```
+
+
+## 📌 TODOs & Ideas
+
+* [ ] Add support for rests (`_`)
+* [ ] Allow setting custom BPM from input
+* [ ] Note duration syntax (e.g. `C4:250`)
+* [ ] Save and load song files (`.std`)
+* [ ] Loop patterns for beat making
+
+---
+
+## 💡 Credits
+
+* Developed with love by [Kwizera Mugisha Olivier](https://github.com/your-username)
+* MP3 playback powered by [JLayer](http://www.javazoom.net/javalayer/javalayer.html)
+
+---
+
+## 📜 License
+
+MIT License. Use it, hack it, remix it. Just don’t use it to annoy your neighbors with terminal techno. 😄
+
